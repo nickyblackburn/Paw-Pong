@@ -84,9 +84,9 @@ function draw() {
   ctx.fill();
 
   if (state === "serve") {
-    drawOverlay("Ready?");
+    drawOverlay("Ready? UwU?");
   } else if (state === "gameover") {
-    const who = playerScore > cpuScore ? "You Win! 🐾" : "You Lose 😿";
+    const who = playerScore > cpuScore ? "You Win LOL! 🐾" : "You Lose U Crazy Loozer 😿";
     drawOverlay(who, "Press Space / Click to play again");
   }
 }
